@@ -43,6 +43,7 @@ Gem::Specification.new do |s|
     "assets/javascripts/tooltip/tooltip.js",
     "assets/javascripts/tooltip/tooltip.slide.js",
     "assets/javascripts/validator/validator.js",
+    "jqtools-rails.gemspec",
     "lib/jqtools-rails.rb",
     "spec/jqtools-rails_spec.rb",
     "spec/spec_helper.rb"

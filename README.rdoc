@@ -1,6 +1,21 @@
 = jqtools-rails
 
-Description goes here.
+This gem is a Rails engine and is configured to integrate with Rails asset pipeline.
+
+Simply add to Gemfile and bundle:
+
+gem 'jqtools-rails'
+
+You can choose to use either the minified js for all the tools:
+
+//= require_tree .
+//= require jquery.tools.min
+
+Or the tools individually
+
+//= require_tree .
+//= require rangeinput/rangeinput.js
+//= require dateinput/dateinput.js
 
 == Contributing to jqtools-rails
  

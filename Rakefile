@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jqtools-rails"
   gem.homepage = "http://github.com/kristianmandrup/jqtools-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{jQuery tools wrapped as a Rails 3 gem}
+  gem.description = %Q{Gem is an engine and is configured to integrate with Rails asset pipeline}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile

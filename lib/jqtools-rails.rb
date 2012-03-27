@@ -1,5 +1,7 @@
 module JQueryTools
-	class Engine < ::Rails::Engine
-		puts "jQueryTools loaded"
+	module Rails
+		class Engine < ::Rails::Engine
+			# puts "jQueryTools loaded"
+		end
 	end
 end

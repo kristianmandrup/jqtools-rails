@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "jqtools-rails"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
-  s.date = "2012-08-02"
+  s.date = "2012-08-26"
   s.description = "Gem is an engine and is configured to integrate with Rails asset pipeline"
   s.email = "kmandrup@gmail.com"
   s.extra_rdoc_files = [
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
+    "CHANGELOG.md",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -30,7 +31,10 @@ Gem::Specification.new do |s|
     "spec/jqtools-rails_spec.rb",
     "spec/spec_helper.rb",
     "vendor/assets/javascripts/dateinput/dateinput.js",
+    "vendor/assets/javascripts/effect/fullscreen.jquery.js",
     "vendor/assets/javascripts/jquery.tools.min.js",
+    "vendor/assets/javascripts/knobs/knobs.jquery.js",
+    "vendor/assets/javascripts/knobs/transform.js",
     "vendor/assets/javascripts/overlay/overlay.apple.js",
     "vendor/assets/javascripts/overlay/overlay.js",
     "vendor/assets/javascripts/rangeinput/rangeinput.js",
@@ -46,7 +50,8 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/tooltip/tooltip.dynamic.js",
     "vendor/assets/javascripts/tooltip/tooltip.js",
     "vendor/assets/javascripts/tooltip/tooltip.slide.js",
-    "vendor/assets/javascripts/validator/validator.js"
+    "vendor/assets/javascripts/validator/validator.js",
+    "vendor/assets/stylesheets/knobs.css"
   ]
   s.homepage = "http://github.com/kristianmandrup/jqtools-rails"
   s.licenses = ["MIT"]

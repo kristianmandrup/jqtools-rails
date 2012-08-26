@@ -41,6 +41,7 @@ In addition to the original toolset, the following have been added:
 
 * fullscreen
 * knobs
+* tzselect
 
 ## Fullscreen
 
@@ -76,6 +77,27 @@ $('#elem').knobKnob({
 Demo [pretty-switches](http://tutorialzine.com/2011/11/pretty-switches-css3-jquery/)
 
 Note: You also need to add `knobs.css` to your project, fx using your `application.css` manifest.
+
+## TZSelect
+
+```html
+<form method="post" action="">
+
+  <!-- We are going to use jQuery to hide the select element and replace it -->
+  <select name="fancySelect" class="makeMeFancy">
+
+    <!-- Notice the HTML5 data attributes -->
+
+    <option value="0" selected="selected" data-skip="1">Choose Your Product</option>
+    <option value="1" data-icon="img/products/iphone.png" data-html-text="iPhone 4&lt;i&gt;in stock&lt;/i&gt;">iPhone 4</option>
+    <option value="2" data-icon="img/products/ipod.png" data-html-text="iPod &lt;i&gt;in stock&lt;/i&gt;">iPod</option>
+    <option value="3" data-icon="img/products/air.png" data-html-text="MacBook Air&lt;i&gt;out of stock&lt;/i&gt;">MacBook Air</option>
+    <option value="4" data-icon="img/products/imac.png" data-html-text="iMac Station&lt;i&gt;in stock&lt;/i&gt;">iMac Station</option>
+  </select>
+</form>
+```
+
+See [tzselect](http://tutorialzine.com/2010/11/better-select-jquery-css3/)
 
 ## Contributing to jqtools-rails
  
